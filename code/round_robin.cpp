@@ -6,6 +6,7 @@ int main(int argc, char **argv)
     int n, i, time, remain, temps = 0, time_quantum;
     // bt - burst time
     // wt - waiting time
+    // tat - total average time
     int wt = 0, tat = 0;
 
     cout << "Enter total number of processes = " << endl;
